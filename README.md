@@ -17,3 +17,23 @@ Features
     Automated deployment with GitHub Actions CI/CD pipeline.
     Outputs important infrastructure information (e.g., EC2 public IP).
     Easy to customize for different regions, instance types, or scaling needs.
+
+
+Getting Started
+Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+    Terraform CLI
+    AWS CLI
+    Git
+
+AWS Credentials
+
+Make sure your AWS credentials are configured locally. You can configure them using the AWS CLI:
+aws configure
+
+Clone the Repository :
+git clone https://github.com/yourusername/aws-terraform-infrastructure.git
+cd aws-terraform-infrastructure/infrastructure
+
