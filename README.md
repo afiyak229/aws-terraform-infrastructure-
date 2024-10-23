@@ -37,3 +37,25 @@ Clone the Repository :
 git clone https://github.com/yourusername/aws-terraform-infrastructure.git
 cd aws-terraform-infrastructure/infrastructure
 
+
+Usage
+1. Initialize Terraform
+Run the following command to initialize the Terraform environment and download required providers:
+terraform init
+
+2. Review the Terraform Plan
+This step allows you to review the resources that Terraform will create:
+terraform plan
+
+3. Apply the Configuration
+Apply the changes to provision the infrastructure on AWS:
+terraform apply
+You will be prompted to confirm the execution. Type yes to proceed.
+
+4. Outputs
+Once the infrastructure is provisioned, you will see output values such as the public IP address of the EC2 instance. You can also find the output information by running:
+terraform output
+
+5.Clean Up
+To destroy all the resources created by this project, run:
+terraform destroy
